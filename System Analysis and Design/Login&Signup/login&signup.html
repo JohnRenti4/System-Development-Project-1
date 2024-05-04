@@ -14,7 +14,7 @@
     <div class="container" id="container">
     
       <div class="form-container sign-up">
-        <form>
+        <form id="signupForm">
           <h1>Create Account</h1>
           <div class="social-icons">
             <a href="https://accounts.google.com/lifecycle/steps/signup/name?continue=https://myaccount.google.com/?utm_source%3Dsign_in_no_continue%26pli%3D1&dsh=S-939306264:1705690165328421&ec=GAlAwAE&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en_GB&service=accountsettings&theme=glif&
@@ -23,14 +23,16 @@
             KrkuxO5g&smuh=60314&lh=Ac_ppC3jB6u8bai17HU" class="google"><i class="fa-brands fa-facebook"></i></a>
             <a href="" class="google"><i class="fa-brands fa-github"></i></a>
             <a href="" class="google"><i class="fa-brands fa-linkedin-in"></i></a>
+            <p id="error" class="error-message m-1"></p> 
           </div>
           <span>
             or use Email for registration
           </span>
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
-          <input type="password" placeholder="Password">
-          <button>Sign Up</button>
+          <input type="text" id="name" placeholder="Name">
+          <input type="email" id="email" placeholder="Email">
+          <input type="password" id="password" placeholder="Password" required>
+          <button type="submit">Sign Up</button>
+          
         </form>
       </div>
       <div class="form-container sign-in">
@@ -46,7 +48,7 @@
             or 
           </span>
           <input type="email" id="Email" placeholder="Email">
-          <input type="password" id="password" placeholder="Password">
+          <input type="password" id="password" placeholder="Password" required>
           <a href="#">Forgot password?</a>
           <button id="SignIn1" type="submit">Log In</button>
          <p id="error" class="error-message m-1"></p> 
@@ -63,7 +65,7 @@
           <div class="container-panel toggle-right">
             <h1>Hello Friend!</h1>
             <p>Register with your personal details to unlock all the features!</p>
-         <button class="hidden" id="register">Sign up</button>
+         <button class="hidden" id="register">Create  Account</button>
         </div>
       </div>
     </div>
