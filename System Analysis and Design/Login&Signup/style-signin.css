@@ -226,6 +226,15 @@ transition: all 0.6s ease-in-out;
     color: red;
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 8px;
     display: none;
+  }
+  #SignIn1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
