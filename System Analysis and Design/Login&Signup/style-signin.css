@@ -222,3 +222,10 @@ transition: all 0.6s ease-in-out;
     transform: translateX(200%);
 }
 
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+  }
