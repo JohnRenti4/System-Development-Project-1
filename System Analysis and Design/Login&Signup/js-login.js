@@ -18,7 +18,10 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var password = document.getElementById("Password").value;
   
     // You can replace the condition with your actual authentication logic
-    if (username === "admin@gmail.com" && password === "1234") {
+    if (username === "johnrenticruz@gmail.com" && password === "admin001") {
+      // Redirect to dashboard or any other page
+      window.location.href = "Home.html";
+    }if (username === "maurik@gmail.com" && password === "admin002") {
       // Redirect to dashboard or any other page
       window.location.href = "Home.html";
     } else {
